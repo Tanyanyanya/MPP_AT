@@ -62,14 +62,14 @@ namespace MP_dop2
         {
             return new Dictionary<string, StudentInfo>
     {
-        {"Joann Parker",
-            new StudentInfo() { Faculty ="IPI", FullName="Student", Group="IT-05", Telephone=0872349866, Address="Honey Arbor"}},
-        {"Frank Rogers",
-            new StudentInfo() { Faculty ="IPT", FullName="Student", Group="IC-02", Telephone=0872349869, Address="Broad Circle"}},
-        {"Ella Reyes",
-            new StudentInfo() { Faculty ="MMM", FullName="Student", Group="IS-05", Telephone=0872349861, Address="Sleepy Acres"}},
-        {"John Williams",
-            new StudentInfo() { Faculty ="MWM", FullName="Student", Group="IM-01", Telephone=0872349862, Address="Hazy Oak Avenue"}}
+        {"Student",
+            new StudentInfo() { Faculty ="IPI", FullName="Joann Parker", Group="IT-05", Telephone=0872349866, Address="Honey Arbor"}},
+        {"Student2",
+            new StudentInfo() { Faculty ="IPT", FullName="Frank Rogers", Group="IC-02", Telephone=0872349869, Address="Broad Circle"}},
+        {"Student3",
+            new StudentInfo() { Faculty ="MMM", FullName="Ella Reyes", Group="IS-05", Telephone=0872349861, Address="Sleepy Acres"}},
+        {"Student4",
+            new StudentInfo() { Faculty ="MWM", FullName="John Williams", Group="IM-01", Telephone=0872349862, Address="Hazy Oak Avenue"}}
     };
         }
 
